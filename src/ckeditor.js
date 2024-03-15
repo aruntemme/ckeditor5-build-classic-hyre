@@ -94,7 +94,8 @@ ClassicEditor.defaultConfig = {
 			'mcqOptions',
 			'math',
 			'undo',
-			'redo'
+			'redo',
+			'underline
 		]
 	},
 	image: {
