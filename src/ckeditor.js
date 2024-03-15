@@ -34,6 +34,8 @@ import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import Blank from './plugins/ckeditor5-blank/src/blank';
 import McqOptions from './plugins/ckeditor5-mcq-options/src/mcqoptions';
 import Math from 'ckeditor5-math/src/math';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -67,6 +69,7 @@ ClassicEditor.builtinPlugins = [
 	Blank,
 	McqOptions,
 	Math,
+	Underline,
 ];
 
 // Editor configuration.
